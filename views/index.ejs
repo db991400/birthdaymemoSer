@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div>
+    <h2>Register</h2>
+    <form action="/users/register" method="POST">
+      User Name:<input type="text" name="name"> 
+      User Password:<input type="password" name="password"> 
+      User Email:<input type="email" name="email">
+      <button type="submit">Add a user</button>
+    </form>
+  </div>
+  <div>
+      <h2>Login</h2>
+      <form action="/users/login" method="POST">
+        User Name:<input type="text" name="name">
+         User Password:<input type="password" name="pass">
+        <button type="submit">Login</button>
+      </form>
+  </div>
+  <div>
+    <a href="friends">Go to friends</a>
+  </div>
+</body>
+
+</html>
